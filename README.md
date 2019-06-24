@@ -1,2 +1,2 @@
-# Data_projects
-This repo serves to store all data science related projects using R, python code.
+#Fiduciary advisor
+This repo will store code relating to the online fiduciary advisory platform.
