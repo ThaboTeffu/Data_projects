@@ -1,2 +1,4 @@
 # Financial ideas and terms
-This repo serves to store all data science related projects using R, python code.
+This is a repository with documentation regarding key financial terms and ideas, that any I.T(dev and analyst) professional will meet up with in the financial sector.
+
+I hope the document is helpful and insightful.
