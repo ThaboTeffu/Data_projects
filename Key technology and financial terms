@@ -1,42 +1,29 @@
-End of Day Batch processing (EOD)
+#End of Day Batch processing (EOD)
 With batch processing, a number of authorized transactions are processed at the same time. This can be done at any time (usually 5pm of each day in SA), but it is most cost effective to do it just once per day, as the credit card processor charges a fee every time a batch is processed.
 As mentioned above, there are two parts to processing a credit card transaction. When a customer’s credit card is swiped, the transaction details are sent through the transaction authorization path, during which the issuing bank approves the transaction and a hold is put on customer funds. This occurs in real-time. Resulting credit card authorization codes are stored in a single file by the credit card terminals or credit card processing platform. This file is known as a ‘batch’.
 Later on, the second stage, fund transfer, occurs. This is when customer credit cards are actually charged. When batch processing is used, the batch of authorization codes is uploaded and processed simultaneously, once a day. This is also known as ‘closing the batch’. Usually this process is carried out at the end of the work day.
 During batch processing, the merchant sends the batch of authorization codes to the credit card processor. The credit card processor then forwards these codes to the relevant issuing banks. As a hold has already been put on customer funds, all that remains is for the issuing bank to release the funds and send them to the processor. The processor then forwards the funds to be deposited into the merchant account. This process usually occurs within 48 hours of the transaction. After the funds are transferred from the user’s bank to the merchant account, the transaction is complete, and it will show up on the customer’s next credit card statement
-User Acceptance testing (UAT)
+
+#User Acceptance testing (UAT)
 The last phase of the software testing process. During UAT, actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications. UAT verifies whether the software works for the user.
 User Acceptance testing is carried out in the final stages of the software development life cycle. In many cases user acceptance testing is ideally carried out by end-users, and non-technical testers, and dedicated product owners.
 UAT covers test scenarios which cover ‘user journeys’ or use-facing functionality. Testing scenarios somehow abstract away from technical detail and precise click-by-click tests.
-System Integration testing (SIT)
+
+#System Integration testing (SIT)
 Verifies whether the subsystems constituting the software product work as expected and work together in a streamlined manner. SIT checks whether the subsystem (i.e. software product) and its subsystems meet the requirements, as well as operate and interoperate without technical failures (nothing crashes).
 System Integration testing starts when the system is assembled for the first time, after all subsystems have been tested. System testing typically precedes user acceptance testing.
 SIT uses detailed test cases that focus on functional and non-functional aspects of the software. 
-Disaster Recovery (DR)
+
+#Disaster Recovery (DR)
 Disaster recovery is an area of security planning that aims to protect an organisation from effects of significant negative events. DR allows an organization to maintain or quickly resume mission critical functions following a disaster.
-Software development life cycle (SDLC)
+
+#Software development life cycle (SDLC)
 SDLC is a simplified representation of a software process.
 The following process models are abstract/frameworks for the software process. They give partial view of the software process, and can be further extended to create more specific software engineering processes.
 1.	Waterfall model: This takes the fundamental process activities of specification, development, validation, and evolution and represents them as separate process phases such as requirements specification, software design, implementation, and testing. The waterfall model is a plan driven process. It is non-flexible and there is no way to backtrack during the development process.
- 
-
-
-
-
-
-
-
-
-
 2.	Incremental development: Each version of software is improved, until the final version has been developed. Incremental has 3 major advantages mainly, the cost of implementing requirements changes is reduced, it is easier to get customer feedback on the development work that has been done, early delivery and deployment of useful software.
  
-
-
-
-
-
-
-
-Agile methods
+#Agile methods
 Agile methods developed as a need to deal with rapid software development.
 Agile methods are incremental, get rapid feedback from customers.
 4 simple principles of agile:
@@ -45,22 +32,25 @@ Agile methods are incremental, get rapid feedback from customers.
 3.	Incremental delivery:
 4.	Maintain simplicity: avoid complexity where possible
 5.	People, not process: skills of dev team recognized.
-Test-driven development (TDD)
+#Test-driven development (TDD)
 In TDD you test whilst your coding. You develop the software incrementally, together with set tests for that increment.
 Benefits of TDD:
 1.	Code coverage: each segment of code should have one test.
 2.	Regression testing: testing the new code on functionality that is already there.
 3.	Simplified debugging: when a test fails it should be obvious where the problem is.
 4.	System documentation: the code acts as documentation.
-Functional requirements
+
+#Functional requirements
 Functional requirements are statements of services the system should provide, how the system should react to particular inputs and to particular situations.
-Non-functional requirements
+
+#Non-functional requirements
 Non-functional requirements are constraints on the services or functions offered by the system. They include timing constraints and constraints on the development process and standards.
 Equated loan
  A monthly fixed amount contribution towards a loan.
 Non-equated loan
 A business loan given based on a company’s performance. It takes into account cash flow more than asset base. There are no monthly instalments required.
-Database refresh
+
+#Database refresh
 A database refresh in Oracle may not mean the same as in SQL server. 
 Refreshing a database is a process of overwriting an existing database from your production or stage database or vice versa. 
 In laments terms, it is a process of restoring a database to your stage or development environment from a production database backup. 
