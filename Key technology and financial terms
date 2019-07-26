@@ -1,4 +1,4 @@
-#End of Day Batch processing (EOD)
+# End of Day Batch processing (EOD)
 With batch processing, a number of authorized transactions are processed at the same time. This can be done at any time (usually 5pm of each day in SA), but it is most cost effective to do it just once per day, as the credit card processor charges a fee every time a batch is processed.
 As mentioned above, there are two parts to processing a credit card transaction. When a customer’s credit card is swiped, the transaction details are sent through the transaction authorization path, during which the issuing bank approves the transaction and a hold is put on customer funds. This occurs in real-time. Resulting credit card authorization codes are stored in a single file by the credit card terminals or credit card processing platform. This file is known as a ‘batch’.
 Later on, the second stage, fund transfer, occurs. This is when customer credit cards are actually charged. When batch processing is used, the batch of authorization codes is uploaded and processed simultaneously, once a day. This is also known as ‘closing the batch’. Usually this process is carried out at the end of the work day.
