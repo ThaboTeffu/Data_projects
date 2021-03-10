@@ -1,0 +1,1 @@
+CREATE DATABASE Netflix_datastorage;
